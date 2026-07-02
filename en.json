@@ -123,8 +123,8 @@
 
   "setup.title": "# Thanks for adding Frostbite!",
   "setup.title.guild": "# Thanks for adding Frostbite to {guild}!",
-  "setup.body": "I keep your server safe with scam-link, banned-image, and word filters. A member with **Manage Server** can set me up with `/filter`:\n\n• `/filter chatfilter enabled:true` | Word-list chat filter\n• `/filter stringfilter enabled:true` | Scam/phishing link filter\n• `/filter imagefilter enabled:true` | Banned-image filter\nOnce enabled, filters cover **every category** by default.\n• `/filter categories` | Pick categories to exclude\n• `/filter setlogchannel` | Where removals are reported\n• `/filter setstaffrole` | Role that bypasses the filters\n• `/filter status` | Review the current configuration",
-  "setup.perms": "-# I can only monitor channels where I have **View Channel** and **Read Message History**, and I need **Manage Messages** to remove flagged content and **Ban Members** for the honeypot. I can't see or act in channels my role lacks access to — grant these server-wide for full coverage.",
+  "setup.body": "I protect this server from scams — phishing links, scam images, and compromised-account spam. Setup takes three commands (needs **Manage Server**):\n\n**1.** `/filter stringfilter enabled:true` and `/filter imagefilter enabled:true` — turn the scam filters on\n**2.** `/filter setlogchannel` — pick where removals are reported\n**3.** `/filter status` — confirm everything is ready\n\nFilters cover **every channel** by default.\n-# More options: `/filter categories` (exclude categories), `/filter setstaffrole` (bypass role), `/filter honeypot` (trap channel), `/language server` (my language here).",
+  "setup.perms": "-# Grant my role **View Channel**, **Read Message History**, and **Manage Messages** server-wide (plus **Ban Members** if you use the honeypot) — I can't filter channels I can't see.",
 
   "support.body": "Need help? Join the support server.",
   "support.notconfigured": "The support server hasn't been configured yet.",
