@@ -1,8 +1,10 @@
 # Frostbite-Lang
 
 Message catalogs for the [Frostbite](https://github.com/tricrotism/Frostbite) Discord bot. The bot
-loads every `<code>.json` file in this directory at startup (`frostbite.lang.dir` points at a
-checkout of this repo) and lets users pick a language with `/language set` and servers with
+**pulls every `<code>.json` file straight from this repo at startup** (via the GitHub Contents
+API, `frostbite.lang.remote-contents-url`) — merged translations go live on the bot's next
+restart, no deploy needed. A local checkout (`frostbite.lang.dir`) overrides per-key for
+development. Users pick a language with `/language set` (or `/lang set`) and servers with
 `/language server`. **English is always the default** — a copy of `en.json` is bundled inside the
 bot, so this repo only needs to exist to add more languages.
 
