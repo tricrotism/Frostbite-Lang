@@ -14,6 +14,7 @@
   "common.error.unexpected": "An unexpected error occurred. Please contact support.",
 
   "button.support": "Support Server",
+  "button.add_bot": "Add Frostbite to your server",
 
   "language.show.user": "**Your language:** {language}",
   "language.show.user.none": "**Your language:** _not set_ (using the server's)",
@@ -28,7 +29,8 @@
   "language.unknown": "I don't have a language `{code}`. Available: {list}",
   "language.disclaimer": "-# ⚠️ Languages other than English are generated with an LLM and may contain inaccurate translations. You can contribute corrections at <{link}>.",
 
-  "dm.compromised": "Your message in **{guild}** was removed because it contained content commonly associated with scams or compromised accounts.\n\n**If you didn't send this message, your Discord account is likely compromised.** Please take the following steps immediately:\n\n**1. Change your Discord password** | [Account Settings](https://discord.com/channels/@me) → My Account → Change Password. Use a unique password you don't reuse anywhere else.\n**2. Enable Two-Factor Authentication (2FA)** | [discord.com/safety/keeping-your-account-safe](https://discord.com/safety/keeping-your-account-safe)\n**3. Log out of all sessions** | Settings → Devices → Log Out All Known Devices.\n**4. Revoke suspicious authorized apps** | Settings → Authorized Apps, remove anything you don't recognize.\n**5. Scan your computer for malware** | Token-stealers are common; run a reputable antivirus.\n**6. Check your email** | Make sure no rules are forwarding Discord emails elsewhere, and reset that password too if it's reused.\n\n**Helpful Resources:**\n• [Discord: My Account Was Hacked](https://support.discord.com/hc/en-us/articles/218410947-My-Account-was-Hacked)\n• [Discord: Keeping Your Account Safe](https://support.discord.com/hc/en-us/articles/4410384472359)\n• [Discord Trust & Safety](https://discord.com/safety)\n\nIf you sent the message intentionally, please contact a staff member.",
+  "dm.compromised": "Your message in **{guild}** was removed because it looked like a scam.\n\n**If you didn't send it, your account is probably compromised.** Do this now:\n> Change your password and turn on 2FA\n> Log out of all devices (Settings → Devices)\n> Remove apps you don't recognize (Settings → Authorized Apps)\n> Scan your PC for malware\n\n[Discord's guide for hacked accounts](https://support.discord.com/hc/en-us/articles/24160905919511-My-Discord-Account-was-Hacked-or-Compromised)\n\nIf you sent it on purpose, talk to the server's staff.",
+  "dm.compromised.footer": "-# Removed by [Frostbite](<{site}>)",
 
   "honeypot.warning": "## ⚠️ Do not post in this channel\nThis is a moderation **honeypot**. There is no reason for a real member to send a message here.\n\n**Anyone who posts in this channel is automatically {action}**, as it's a trap for spam bots and compromised accounts. Please ignore this channel entirely.",
   "honeypot.warning.action.ban": "banned",
