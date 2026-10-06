@@ -14,6 +14,7 @@
   "common.error.unexpected": "Något gick fel. Var snäll och kontakta support.",
 
   "button.support": "Supportserver",
+  "button.add_bot": "Lägg till Frostbite på din server",
 
   "language.show.user": "**Ditt språk:** {language}",
   "language.show.user.none": "**Ditt språk:** _not set_ (använder serverns)",
@@ -28,7 +29,8 @@
   "language.unknown": "Jag har inte språket `{code}` tillgängligt. Tillgängliga språk: {list}",
   "language.disclaimer": "-# ⚠️ Språk förutom Engelska, Svenska, Polska och Japanska är genererade med en LLM och kan innehålla felaktiga översättningar. Du kan bidra med korrigeringar på <{link}>.",
 
-  "dm.compromised": "Dina meddelanden i **{guild}** togs bort eftersom de innehöll något som ofta förknippas med bedrägerier eller komprometterade konton.\n\n**Om du inte skickade detta meddelande så har ditt Discord-konto förmodligen kapats.** Vänligen följ dessa steg omedelbart:\n\n**1. Ändra ditt discordlösenord** | [Kontoinställningar](https://discord.com/channels/@me) → Mitt konto → Ändra lösenord. Använd ett unikt lösenord som du inte använder någon annanstans.\n**2. Slå på tvåfaktorautentisering (2FA)** | [Fyra steg till ett supersäkert konto](https://discord.com/safety/360043857751-Four-steps-to-a-super-safe-account)\n**3. Logga ut från alla sessioner** | Inställningar → Konto → Lösenord och säkerhet → Logga ut alla kända enheter.\n**4. Återkalla misstänkta auktoriserade appar** | Inställningar → Meddelandebehörigheter → Auktoriserade appar: ta bort det som du inte känner igen.\n**5. Skanna din dator för virus** | Token-stealers är vanliga; använd ett pålitligt antivirusprogram.\n**6. Kolla din e-post** | Se till att inga regler vidarebefordrar Discord-mejl till andra, och återställ lösenordet om det återanvänds.\n\n**Hjälpande resurser:**\n• [Discord: Mitt konto hackades](https://support.discord.com/hc/en-us/articles/218410947-My-Account-was-Hacked)\n• [Discord: Mitt Discord-konto hackades eller äventyrades](https://support.discord.com/hc/sv/articles/24160905919511-Mitt-Discord-konto-hackades-eller-%C3%A4ventyrades)\n• [Discord: Kontosäkerhet](https://support.discord.com/hc/sv/sections/24453122216087-Kontos%C3%A4kerhet)\n• [Discord: Fyra steg till ett supersäkert konto](https://discord.com/safety/360043857751-Four-steps-to-a-super-safe-account)\n• [Discord Trust & Safety](https://discord.com/safety)\n\nOm du skickade meddelandet med flit, var då god och kontakta en administrativ medlem.",
+  "dm.compromised": "Ditt meddelande i **{guild}** togs bort eftersom det såg ut som ett bedrägeri.\n\n**Om du inte skickade det har ditt konto förmodligen kapats.** Gör så här nu:\n> Byt lösenord och slå på 2FA\n> Logga ut från alla enheter (Inställningar → Enheter)\n> Ta bort appar du inte känner igen (Inställningar → Auktoriserade appar)\n> Skanna din dator efter skadlig kod\n\n[Discords guide för kapade konton](https://support.discord.com/hc/sv/articles/24160905919511-Mitt-Discord-konto-hackades-eller-%C3%A4ventyrades)\n\nOm du skickade det med flit, prata med serverns personal.",
+  "dm.compromised.footer": "-# Borttaget av [Frostbite](<{site}>)",
 
   "honeypot.warning": "## ⚠️ Skriv inte i denna kanal.\nDetta är en **modereringshonungsfälla**. Det finns ingen anledning för en riktig medlem att skicka ett meddelande här.\n\n**Den som skriver i denna kanal blir automatiskt {action}**, sedan det är en fälla för bedrägeribottar och kapade konton. Var snäll och ignorera denna kanal fullständigt",
   "honeypot.warning.action.ban": "bannlyst",
@@ -43,6 +45,7 @@
   "dm.punishment.appeal": "Om du skulle vilja överklaga detta resultat: {link}",
 
   "alert.userline": "Användare: {name} (ID: {id})\nNämnd som: {mention}\nKanal: {channel} (ID: {channelId})",
+  "alert.via_app": "Publicerat via appen {app} (ID: {appId}), som den här användaren har installerat själv.",
   "alert.forumpost.name": "Frostbite filterlogg",
   "alert.forumpost.body": "Filterade dektektioner och varningar för administrativa medlemmar skickas i denna tråd.",
   "alert.batch.body": "Tog bort {phrase} vid ankomst ({reason}).",
@@ -83,6 +86,8 @@
   "alert.honeypot.punished": "Handling: **{action}** (skickade i honungsfälla kanalen)\nMeddelande: ```{message}```",
   "alert.honeypot.deleted": "Handling: **meddlenade borttaget** (inget straff konfigurerat)\nMeddelande: ```{message}```",
   "alert.ocr.body": "Bildtext matchade en bannad bedrägeristräng.\nMatchade: `{matched}`\nFil: `{file}`",
+  "alert.retroactive.title": "Förbjuden bild borttagen i efterhand",
+  "alert.retroactive.body": "Tog bort {count} redan publicerade kopior av en bild vars fingeravtryck just har förbjudits. Inga åtgärder vidtogs mot medlemmarna som publicerade dem.",
 
   "filter.toggle.generic": "{type} {state}.",
   "filter.quicksetup.done": "Snabbinstallation klar — sträng- och bildfilter är aktiverade, och borttagningar är rapporterade till {channel}. Skriv `/filter status` för att se vad mer du kan konfigurera.",

@@ -45,6 +45,7 @@
   "dm.punishment.appeal": "If you'd like to appeal this action: {link}",
 
   "alert.userline": "User: {name} (ID: {id})\nMention: {mention}\nChannel: {channel} (ID: {channelId})",
+  "alert.via_app": "Posted through the app {app} (ID: {appId}), which this user installed for themselves.",
   "alert.forumpost.name": "Frostbite Filter Log",
   "alert.forumpost.body": "Filter detections and staff alerts for this server are posted in this thread.",
   "alert.batch.body": "Removed {phrase} on arrival ({reason}).",
@@ -85,6 +86,8 @@
   "alert.honeypot.punished": "Action: **{action}** (posted in honeypot channel)\nMessage: ```{message}```",
   "alert.honeypot.deleted": "Action: **message deleted** (no punishment configured)\nMessage: ```{message}```",
   "alert.ocr.body": "Image text matched a banned scam string.\nMatched: `{matched}`\nFile: `{file}`",
+  "alert.retroactive.title": "Banned Image Removed Retroactively",
+  "alert.retroactive.body": "Removed {count} already-posted cop(y/ies) of an image whose fingerprint has just been banned. No action was taken against the members who posted them.",
 
   "filter.toggle.generic": "{type} {state}.",
   "filter.quicksetup.done": "Quick setup done — string and image filters are on, and removals are reported to {channel}. Run `/filter status` to see what else you can configure.",
